@@ -1,3 +1,4 @@
+var initialized = true;
 (function(window){
 
   var WORKER_PATH = 'js/recorderWorker.js';
