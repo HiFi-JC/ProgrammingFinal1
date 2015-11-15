@@ -1,7 +1,6 @@
-var initialized = true;
 (function(window){
 
-  var WORKER_PATH = 'js/recorderWorker.js';
+  var WORKER_PATH = 'recorderWorker.js';
 
 
 	function RecorderObject (source, cfg){
@@ -157,6 +156,10 @@ var initialized = true;
 
 
 	window.audioRecorder = audioRecorder;
+
+
+
+
 
 
 })(window);
